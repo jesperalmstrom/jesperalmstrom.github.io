@@ -1,0 +1,26 @@
+title: Jesper Almström
+email: your-email@example.com
+description: >-
+  Personal website showcasing my projects and CV.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jesperalmstrom.github.io" 
+github_username: jesperalmstrom
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
