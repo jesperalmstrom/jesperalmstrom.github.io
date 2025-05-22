@@ -1,0 +1,53 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby dependencies
+.bundle/
+vendor/
+
+# Environment files
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+
+# Local Netlify folder
+.netlify/
+
+# Ruby version manager files
+.ruby-version
+.ruby-gemset
+
+# Build files
+Gemfile.lock
+
+# Mac files
+Icon
+Icon?
