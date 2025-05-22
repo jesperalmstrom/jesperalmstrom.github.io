@@ -1,2 +1,48 @@
-title: My Awesome Jekyll Site
-theme: minima
+title: Jesper Almström
+description: Cloud Architect, Software Developer & Technology Enthusiast
+author: Jesper Almström
+email: your-email@example.com
+github_username: jesperalmstrom
+linkedin_username: jesper.almstrom
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  projects:
+    output: false
+
+# Site settings
+timezone: Europe/Stockholm
+lang: en
+
+# SEO settings
+url: "https://jesperalmstrom.github.io"
+baseurl: ""
+
+# Social media
+social:
+  name: Jesper Almström
+  links:
+    - https://github.com/jesperalmstrom
+    - https://linkedin.com/in/jesper-almström
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
