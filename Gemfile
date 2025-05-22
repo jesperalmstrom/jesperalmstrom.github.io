@@ -2,6 +2,14 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3.2"
 
+# Add required standard library gems that are no longer included by default in Ruby 3.4+
+gem "csv"
+gem "logger"
+gem "base64"
+
+# Add minima theme
+gem "minima", "~> 2.5"
+
 # If you want to use GitHub Pages, uncomment the following line
 # gem "github-pages", group: :jekyll_plugins
 

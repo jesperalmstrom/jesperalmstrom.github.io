@@ -1,0 +1,43 @@
+/* Interests Section */
+.interests-content {
+    margin-top: 2rem;
+}
+
+.interest-category {
+    margin-bottom: 2rem;
+}
+
+.interest-category h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #0066cc;
+}
+
+.interests-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.interest-item {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+}
+
+.interest-item h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: #333;
+}
+
+.interest-item p {
+    color: #555;
+}
+
+@media (min-width: 768px) {
+    .interests-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
