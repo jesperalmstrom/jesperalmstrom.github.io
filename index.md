@@ -70,7 +70,7 @@ description: Cloud Architect, Software Developer & Technology Enthusiast passion
       
       <div class="about-stats">
         <div class="stat-card">
-          <h3>5+</h3>
+          <h3>25+</h3>
           <p>Years of Experience</p>
         </div>
         <div class="stat-card">
@@ -78,7 +78,7 @@ description: Cloud Architect, Software Developer & Technology Enthusiast passion
           <p>Projects Completed</p>
         </div>
         <div class="stat-card">
-          <h3>10+</h3>
+          <h3>50+</h3>
           <p>Technologies Mastered</p>
         </div>
       </div>
