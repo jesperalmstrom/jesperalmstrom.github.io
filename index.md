@@ -1,461 +1,126 @@
 ---
 layout: default
 title: Home
-description: Cloud Architect, Software Developer & Technology Enthusiast passionate about creating innovative solutions
+description: Cloud Architect, AWS Solution Architect & FinOps specialist
 ---
 
-<!-- Hero Section -->
-<section id="home" class="hero">
-  <div class="container">
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1 class="hero-title">
-          Hi, I'm <span class="highlight">Jesper Almström</span>
-        </h1>
-        <p class="hero-subtitle">
-          Cloud Architect, Software Developer & Technology Enthusiast
-        </p>
-        <p class="hero-description">
-          I'm passionate about creating innovative solutions and building software that makes a difference.
-          Welcome to my digital portfolio where I showcase my journey in technology.
-        </p>
-        <div class="hero-buttons">
-          <a href="#projects" class="btn btn-primary">View My Work</a>
-          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-        </div>
+<div class="hero">
+  <p class="eyebrow">AWS Solution Architect · FinOps · Gothenburg, Sweden</p>
+  <h1>Hi, I'm <span>Jesper Almström</span></h1>
+  <p class="lead">I design and run cloud platforms on AWS, keep the bill honest with FinOps, and build with AI tooling like Claude. Hands-on across the stack since 1997.</p>
+  <div class="btns">
+    <a class="btn primary" href="#experience">See my experience</a>
+    <a class="btn" href="#contact">Get in touch</a>
+  </div>
+  <div class="stats">
+    <div class="card stat"><b>29</b>years in tech</div>
+    <div class="card stat"><b>9+</b>years in AWS</div>
+    <div class="card stat"><b>7</b>certifications</div>
+  </div>
+</div>
+
+<section id="about">
+  <h2>About</h2>
+  <div class="cols">
+    <div class="card">
+      <h3>Core skills</h3>
+      <div class="tags">
+        <span class="tag">AWS</span><span class="tag">FinOps</span><span class="tag">Infrastructure as Code (CDK)</span>
+        <span class="tag">Python</span><span class="tag">Java</span><span class="tag">JavaScript / TypeScript / Node.js</span>
+        <span class="tag">Serverless</span><span class="tag">CI/CD</span><span class="tag">Agile</span>
       </div>
-      <div class="hero-image">
-        <div class="profile-card">
-          <img src="/assets/images/profile.png" alt="Jesper Almström" class="profile-img">
-          <div class="profile-info">
-            <h3>Jesper Almström</h3>
-            <p>Cloud Architect & Software Developer</p>
-          </div>
-        </div>
-      </div>
+    </div>
+    <div class="card">
+      <h3>How I work</h3>
+      <p class="muted">Thorough, curious and team oriented. I like being the go-to person for hard optimisation and cost questions, and teaching teams how to get the most out of the cloud.</p>
+    </div>
+    <div class="card">
+      <h3>Languages</h3>
+      <p class="muted">Swedish (native)<br>English (fluent)</p>
     </div>
   </div>
 </section>
 
-<!-- About Section -->
-<section id="about" class="about">
-  <div class="container">
-    <h2 class="section-title">About Me</h2>
-    <div class="about-content">
-      <div class="about-text">
-        <p class="lead">
-          I'm a passionate software developer with a love for creating elegant solutions to complex problems.
-        </p>
-        <p>
-          With experience spanning multiple programming languages and frameworks, I enjoy working on both
-          frontend and backend technologies. I believe in writing clean, maintainable code and following
-          best practices to deliver high-quality software solutions.
-        </p>
-        <p>
-          When I'm not coding, you can find me exploring new technologies, contributing to open-source
-          projects, or enjoying outdoor activities. I'm always eager to learn and take on new challenges.
-        </p>
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="badges">
+    <a class="card badge" href="https://www.credly.com/badges/cbb5f18a-f208-4214-a47e-515d00a8f9c1" target="_blank" rel="noopener"><img class="icon" src="https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/linkedin_thumb_image.png" alt="" loading="lazy"><div><strong>Solutions Architect – Associate</strong><small>AWS Certified · Verify ↗</small></div></a>
+    <div class="card badge"><div class="icon aws">AWS</div><div><strong>Developer – Associate</strong><small>AWS Certified</small></div></div>
+    <div class="card badge"><div class="icon finops">FO</div><div><strong>FinOps Associate</strong><small>FinOps Foundation</small></div></div>
+    <a class="card badge" href="https://verify.skilljar.com/c/nszko6chm25c" target="_blank" rel="noopener"><div class="icon claude">AI</div><div><strong>Building with the Claude API</strong><small>Anthropic · May 2026 · Verify ↗</small></div></a>
+    <a class="card badge" href="https://verify.skilljar.com/c/d824qq4d4p9t" target="_blank" rel="noopener"><div class="icon claude">AI</div><div><strong>Claude Code in Action</strong><small>Anthropic · May 2026 · Verify ↗</small></div></a>
+    <a class="card badge" href="https://verify.skilljar.com/c/qmpjx6rqpa9e" target="_blank" rel="noopener"><div class="icon claude">AI</div><div><strong>Introduction to Model Context Protocol</strong><small>Anthropic · May 2026 · Verify ↗</small></div></a>
+    <a class="card badge" href="https://verify.skilljar.com/c/bit4rehjm87a" target="_blank" rel="noopener"><div class="icon claude">AI</div><div><strong>Introduction to Agent Skills</strong><small>Anthropic · Mar 2026 · Verify ↗</small></div></a>
+  </div>
+</section>
 
-        <div class="personal-interests">
-          <h3>Personal Interests</h3>
-          <ul class="interests-list">
-            <li><i class="fas fa-code"></i> Open Source Contributions</li>
-            <li><i class="fas fa-mountain"></i> Skiing, Sailing, Padel, Tennis, Hiking & Outdoor Activities</li>
-            <li><i class="fas fa-book"></i> Reading Tech Blogs & Books</li>
-            <li><i class="fas fa-camera"></i> Photography</li>
-            <li><i class="fas fa-gamepad"></i> Gaming</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="about-stats">
-        <div class="stat-card">
-          <h3>25+</h3>
-          <p>Years of Experience</p>
-        </div>
-        <div class="stat-card">
-          <h3>50+</h3>
-          <p>Projects Completed</p>
-        </div>
-        <div class="stat-card">
-          <h3>50+</h3>
-          <p>Technologies Mastered</p>
-        </div>
-      </div>
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="timeline">
+    <div class="job">
+      <time>2023 – present</time>
+      <h3>Volvo Group Connected Solutions</h3>
+      <p>AWS Solution Architect and FinOps responsible. Hands-on in every aspect of AWS in the Cloud Engineering team.</p>
+    </div>
+    <div class="job">
+      <time>2023 – 2024</time>
+      <h3>Alektum</h3>
+      <p>AWS Solution Architect and DevOps. Architected a serverless solution that analyses data with ML, and built a CI/CD pipeline with GitHub and CodePipeline using CDK.</p>
+    </div>
+    <div class="job">
+      <time>2021 – 2023</time>
+      <h3>Internetstiftelsen</h3>
+      <p>AWS Solution Architect in the Cloud Platform team. Ran all AWS resources, used GitLab CI and CodePipeline to ship ready-made images to the dev teams, and owned FinOps, budget and cost optimisation.</p>
+    </div>
+    <div class="job">
+      <time>2021</time>
+      <h3>AstraZeneca</h3>
+      <p>AWS infrastructure-as-code specialist in the DevOps team for a medical device platform. Built accounts, databases, buckets and an EKS cluster with CDK for tools like SonarQube and DivvyCloud.</p>
+    </div>
+    <div class="job">
+      <time>2017 – 2021</time>
+      <h3>Volvo Group Connected Solutions</h3>
+      <p>AWS Solution Architect and FinOps responsible in the Cloud Center of Excellence.</p>
+      <ul>
+        <li>Guided the move of monolithic fleet management services to microservices on AWS.</li>
+        <li>Built cost reports and dashboards for management, teams and account owners, integrated with Slack and developer portals.</li>
+        <li>Set Well-Architected guidelines, tagging policy and cleanup routines for unused resources.</li>
+        <li>Developed AMIs and rolled the cloud solution out to a new region in China.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <time>2016 – 2017</time>
+      <h3>Burt</h3>
+      <p>Solution Manager and Technical Account Manager for an AWS-native analytics platform serving Swedish media houses such as Stampen, Bonnier and Schibsted.</p>
+    </div>
+    <div class="job">
+      <time>2015 – 2016</time>
+      <h3>Volvo Bus</h3>
+      <p>Solution Manager and Scrum Master in the Telematics team, covering the order system and fleet management system.</p>
+    </div>
+    <div class="job">
+      <time>2009 – 2015</time>
+      <h3>DigitalRoute</h3>
+      <p>Technical Support Manager (Atlanta, USA, supporting Verizon Wireless), Scrum Master, and Java developer on the MediationZone core software.</p>
+    </div>
+    <div class="job">
+      <time>2001 – 2009</time>
+      <h3>Handmark</h3>
+      <p>Scrum Master and developer of apps for the first generation of smartphones, before they were called apps.</p>
+    </div>
+    <div class="job">
+      <time>1997 – 2001</time>
+      <h3>Sigma nBiT</h3>
+      <p>IT consultant on projects for Ericsson, Siemens, Volvo PV, Docysys and Telia, from a sales portal for GSM/GPRS/UMTS to GPRS node test tools.</p>
     </div>
   </div>
 </section>
 
-<!-- Experience Section -->
-<section id="experience" class="experience">
-  <div class="container">
-    <h2 class="section-title">Professional Experience</h2>
-    <div class="timeline">
-
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <h3>Senior Software Developer</h3>
-          <h4>Tech Company AB</h4>
-          <span class="timeline-date">2022 - Present</span>
-          <p>
-            Leading development of scalable web applications using modern frameworks. 
-            Mentoring junior developers and implementing best practices for code quality and deployment.
-          </p>
-          <ul>
-            <li>Led a team of 4 developers in building a customer portal that increased user engagement by 40%</li>
-            <li>Implemented CI/CD pipelines reducing deployment time by 60%</li>
-            <li>Architected microservices infrastructure handling 100k+ daily requests</li>
-          </ul>
-          <div class="tech-tags">
-            <span class="tag">React</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">AWS</span>
-            <span class="tag">Docker</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <h3>Software Developer</h3>
-          <h4>Innovation Startup</h4>
-          <span class="timeline-date">2020 - 2022</span>
-          <p>
-            Developed full-stack applications and contributed to product architecture decisions. 
-            Worked in an agile environment with rapid prototyping and iterative development.
-          </p>
-          <ul>
-            <li>Built responsive web applications serving 10k+ users</li>
-            <li>Optimized database queries improving response times by 50%</li>
-            <li>Integrated third-party APIs and payment systems</li>
-          </ul>
-          <div class="tech-tags">
-            <span class="tag">Vue.js</span>
-            <span class="tag">Python</span>
-            <span class="tag">PostgreSQL</span>
-            <span class="tag">Redis</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <h3>Junior Developer</h3>
-          <h4>Software Solutions Ltd</h4>
-          <span class="timeline-date">2019 - 2020</span>
-          <p>
-            Started my professional journey focusing on frontend development and learning 
-            industry best practices in a collaborative team environment.
-          </p>
-          <ul>
-            <li>Developed interactive user interfaces with modern JavaScript frameworks</li>
-            <li>Collaborated with designers to implement pixel-perfect designs</li>
-            <li>Participated in code reviews and adopted TDD practices</li>
-          </ul>
-          <div class="tech-tags">
-            <span class="tag">JavaScript</span>
-            <span class="tag">HTML/CSS</span>
-            <span class="tag">Git</span>
-            <span class="tag">Jest</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Projects Section -->
-<section id="projects" class="projects">
-  <div class="container">
-    <h2 class="section-title">Featured Projects</h2>
-    <p class="section-subtitle">A collection of my recent work and side projects</p>
-
-    <div class="projects-grid">
-      
-      <div class="project-card">
-        <div class="project-image">
-          <img src="/assets/images/project1.jpg" alt="E-commerce Platform">
-          <div class="project-overlay">
-            <div class="project-links">
-              <a href="#" class="project-link" target="_blank">
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-              <a href="#" class="project-link" target="_blank">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="project-content">
-          <h3>E-commerce Platform</h3>
-          <p>
-            A full-stack e-commerce solution with advanced features like real-time inventory, 
-            payment processing, and admin dashboard. Built with modern technologies for scalability.
-          </p>
-          <div class="project-tech">
-            <span class="tag">React</span>
-            <span class="tag">Node.js</span>
-            <span class="tag">MongoDB</span>
-            <span class="tag">Stripe</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-image">
-          <img src="/assets/images/project2.jpg" alt="Task Management App">
-          <div class="project-overlay">
-            <div class="project-links">
-              <a href="#" class="project-link" target="_blank">
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-              <a href="#" class="project-link" target="_blank">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="project-content">
-          <h3>Task Management App</h3>
-          <p>
-            A collaborative task management application with real-time updates, team collaboration 
-            features, and intuitive drag-and-drop interface.
-          </p>
-          <div class="project-tech">
-            <span class="tag">Vue.js</span>
-            <span class="tag">Express</span>
-            <span class="tag">Socket.io</span>
-            <span class="tag">PostgreSQL</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-image">
-          <img src="/assets/images/project3.jpg" alt="Weather Dashboard">
-          <div class="project-overlay">
-            <div class="project-links">
-              <a href="#" class="project-link" target="_blank">
-                <i class="fas fa-external-link-alt"></i>
-              </a>
-              <a href="#" class="project-link" target="_blank">
-                <i class="fab fa-github"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="project-content">
-          <h3>Weather Dashboard</h3>
-          <p>
-            An interactive weather dashboard with beautiful visualizations, forecasts, 
-            and location-based weather data from multiple APIs.
-          </p>
-          <div class="project-tech">
-            <span class="tag">JavaScript</span>
-            <span class="tag">Chart.js</span>
-            <span class="tag">Weather API</span>
-            <span class="tag">CSS3</span>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- Skills Section -->
-<section id="skills" class="skills">
-  <div class="container">
-    <h2 class="section-title">Skills & Technologies</h2>
-
-    <div class="skills-content">
-      <div class="skills-category">
-        <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
-        <div class="skills-list">
-          <div class="skill-item">
-            <span class="skill-name">JavaScript/TypeScript</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 90%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">React/Next.js</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 75%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">Vue.js</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 60%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">HTML/CSS/SASS</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 85%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="skills-category">
-        <h3><i class="fas fa-server"></i> Backend Development</h3>
-        <div class="skills-list">
-          <div class="skill-item">
-            <span class="skill-name">Node.js</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 80%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">Python</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 85%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">Java</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 65%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">REST APIs</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 90%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="skills-category">
-        <h3><i class="fas fa-database"></i> Database & Tools</h3>
-        <div class="skills-list">
-          <div class="skill-item">
-            <span class="skill-name">Athena</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 80%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">MongoDB</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 70%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">Git/GitHub/GitLab</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 90%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">Docker</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 70%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="skills-category">
-        <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
-        <div class="skills-list">
-          <div class="skill-item">
-            <span class="skill-name">AWS</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 90%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">CI/CD</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 70%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">Linux</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 80%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <span class="skill-name">Serverless</span>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 85%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="contact">
-  <div class="container">
-    <h2 class="section-title">Get In Touch</h2>
-    <p class="section-subtitle">
-      I'm always interested in new opportunities and collaborations.
-      Let's connect and discuss how we can work together!
-    </p>
-
-    <div class="contact-content">
-      <div class="contact-info">
-        <div class="contact-item">
-          <i class="fas fa-envelope"></i>
-          <div>
-            <h3>Email</h3>
-            <p>{{ site.email }}</p>
-          </div>
-        </div>
-        
-        <div class="contact-item">
-          <i class="fab fa-linkedin"></i>
-          <div>
-            <h3>LinkedIn</h3>
-            <p>linkedin.com/in/{{ site.linkedin_username }}</p>
-          </div>
-        </div>
-        
-        <div class="contact-item">
-          <i class="fab fa-github"></i>
-          <div>
-            <h3>GitHub</h3>
-            <p>github.com/{{ site.github_username }}</p>
-          </div>
-        </div>
-        
-        <div class="contact-item">
-          <i class="fas fa-map-marker-alt"></i>
-          <div>
-            <h3>Location</h3>
-            <p>Gothenburg, Sweden</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="contact-form">
-        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-          <div class="form-group">
-            <input type="text" name="name" placeholder="Your Name" required>
-          </div>
-          <div class="form-group">
-            <input type="email" name="email" placeholder="Your Email" required>
-          </div>
-          <div class="form-group">
-            <input type="text" name="subject" placeholder="Subject" required>
-          </div>
-          <div class="form-group">
-            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
-      </div>
-    </div>
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="btns">
+    <a class="btn primary" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <a class="btn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
   </div>
 </section>
